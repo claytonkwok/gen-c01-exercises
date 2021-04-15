@@ -1,26 +1,5 @@
 /*university style*/
-.bgimage-container{
-    display:flex;
-    justify-content: center;
-}
-.wholelogin{
-    background-color: white;
-    width: 400px;
-    position:fixed;
-    top:245px;
-    left:530px;
-    z-index:1;
-}
-.study {
-    width:1400px;
-    height:900px;
-    background-image:url("./images/5.jpg");
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
-    background-position: center;
-    background-size: cover;
-    z-index:0;
-}
+
 body{
     color: black;
 
@@ -78,14 +57,7 @@ body{
 @media only screen and (max-width:576px){
 
 
-.bgimage-container{
-    display: none;
-    
-}
-.wholelogin{
-    width:100%;
-    position:static
-}
+
 body{
     color: black;
 
